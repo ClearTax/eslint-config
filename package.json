@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-boilerplate",
+  "name": "@cleartax/eslint-config",
   "version": "0.1.0",
-  "description": "Eslint Sharable Config Boilerplate",
+  "description": "ClearTax Eslint Config",
   "main": "index.js",
   "engines": {
     "node": ">= 8"
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maddhruv/eslint-config-boilerplate.git"
+    "url": "git+https://github.com/cleartax/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -27,13 +27,22 @@
   "author": "Dhruv Jain <dhruvjainpenny@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maddhruv/eslint-config-boilerplate/issues"
+    "url": "https://github.com/cleartax/eslint-config/issues"
   },
-  "homepage": "https://github.com/maddhruv/eslint-config-boilerplate#readme",
+  "homepage": "https://github.com/cleartax/eslint-config#readme",
   "devDependencies": {
     "prepublish-ok": "^0.5.0"
   },
   "peerDependencies": {
-    "eslint": ">= 4"
+    "eslint": ">= 4",
+    "eslint-plugin-import": "^2.19.1",
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
   }
 }

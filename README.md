@@ -1,17 +1,8 @@
-# eslint-config-boilerplate
+# @cleartax/eslint-config
 
-Eslint Sharable Config Boilerplate
+ClearTax Eslint Config
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-
-## Get Started
-
-- Clone this repository
-`git clone https://github.com/maddhruv/eslint-config-boilerplate`
-
-- Change `index.js` with your _eslint_ configuration and settings
-
-- Modify the package name in `package.json` and publish
 
 ## Usage
 
@@ -19,7 +10,7 @@ Sharable Eslint Configs can be used by adding the config name to the `extends` p
 
 ```js
 extends: [
-  "config-name"
+  "@cleartax"
 ]
 ```
 
@@ -30,3 +21,6 @@ extends: [
 ## Reference
 
 - [https://eslint.org/docs/developer-guide/shareable-configs](https://eslint.org/docs/developer-guide/shareable-configs)
+
+## Code Style
+
