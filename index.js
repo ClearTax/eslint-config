@@ -16,7 +16,8 @@ module.exports = {
     "prettier",
     "lodash",
     "jest",
-    "promise"
+    "promise",
+    "markdown"
   ],
   settings: {
     "import/parsers": {
