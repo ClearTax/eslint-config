@@ -74,6 +74,7 @@
       }
     ],
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "eslint-comments/disable-enable-pair": ["error", { "allowWholeFile": true }]
   }
 }
