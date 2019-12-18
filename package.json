@@ -19,9 +19,12 @@
     "url": "git+https://github.com/cleartax/eslint-config.git"
   },
   "license": "MIT",
-  "author": "Dhruv Jain <dhruvjainpenny@gmail.com>",
+  "author": "ClearTax Engineering",
   "files": [
     "index.js"
+  ],
+  "maintainers": [
+    "Dhruv Jain <dhruvjainpenny@gmail.com>"
   ],
   "main": "index.js",
   "scripts": {
