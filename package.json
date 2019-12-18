@@ -21,7 +21,8 @@
   "license": "MIT",
   "author": "ClearTax Engineering",
   "files": [
-    "index.js"
+    "index.js",
+    "eslintrc.json"
   ],
   "maintainers": [
     "Dhruv Jain <dhruvjainpenny@gmail.com>"
