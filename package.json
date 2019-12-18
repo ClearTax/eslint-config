@@ -30,7 +30,7 @@
   "scripts": {
     "lint": "eslint . --config=eslintrc.json",
     "lint:fix": "npm run lint -- --fix",
-    "prepublishOnly": "prepublish-ok",
+    "prepublishOnly": "package-ok",
     "test": "tap"
   },
   "devDependencies": {
