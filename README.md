@@ -1,6 +1,6 @@
 # @cleartax/eslint-config
 
-ClearTax Eslint Config for `.(js|ts|jsx|tsx|json)`
+ClearTax Eslint Config for `.(js|ts|jsx|tsx|json|md)`
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 ![npm](https://img.shields.io/npm/v/@cleartax/eslint-config?color=green&style=flat-square)
