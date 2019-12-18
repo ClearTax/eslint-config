@@ -2,20 +2,6 @@
   "name": "@cleartax/eslint-config",
   "version": "0.1.0",
   "description": "ClearTax Eslint Config",
-  "main": "index.js",
-  "engines": {
-    "node": ">= 8"
-  },
-  "scripts": {
-    "test": "package-ok"
-  },
-  "files": [
-    "index.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cleartax/eslint-config.git"
-  },
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -24,25 +10,72 @@
     "sharable-config",
     "eslint-boilerplate"
   ],
-  "author": "Dhruv Jain <dhruvjainpenny@gmail.com>",
-  "license": "MIT",
+  "homepage": "https://github.com/cleartax/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/cleartax/eslint-config/issues"
   },
-  "homepage": "https://github.com/cleartax/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleartax/eslint-config.git"
+  },
+  "license": "MIT",
+  "author": "ClearTax Engineering",
+  "files": [
+    "index.js"
+  ],
+  "maintainers": [
+    "Dhruv Jain <dhruvjainpenny@gmail.com>"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=eslintrc.json",
+    "lint:fix": "npm run lint -- --fix",
+    "prepublishOnly": "prepublish-ok",
+    "test": "tap"
+  },
   "devDependencies": {
-    "prepublish-ok": "^0.5.0"
+    "@typescript-eslint/eslint-plugin": "^2.12.0",
+    "@typescript-eslint/parser": "^2.12.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-json": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-lodash": "^6.0.0",
+    "eslint-plugin-markdown": "1.0.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "prepublish-ok": "^0.5.0",
+    "prettier": "^1.19.1",
+    "tap": "^14.10.5"
   },
   "peerDependencies": {
-    "eslint": ">= 4",
+    "@typescript-eslint/eslint-plugin": "^2.12.0",
+    "@typescript-eslint/parser": "^2.12.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
     "eslint-plugin-import": "^2.19.1",
-    "@typescript-eslint/eslint-plugin": "^2.11.0",
-    "@typescript-eslint/parser": "^2.11.0"
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-json": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-lodash": "^6.0.0",
+    "eslint-plugin-markdown": "1.0.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "prettier": "^1.19.1"
   },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.11.0",
-    "@typescript-eslint/parser": "^2.11.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.19.1"
+  "engines": {
+    "node": ">= 8"
   }
 }

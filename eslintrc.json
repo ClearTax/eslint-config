@@ -1,0 +1,80 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "plugins": [
+    "import",
+    "@typescript-eslint",
+    "prettier",
+    "lodash",
+    "jest",
+    "promise",
+    "markdown"
+  ],
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    }
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:jest/recommended",
+    "plugin:json/recommended",
+    "plugin:eslint-comments/recommended",
+    "plugin:promise/recommended",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "import/order": [
+      "error",
+      { "groups": [["builtin", "external", "internal"]] }
+    ],
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "import/no-unresolved": "error",
+    "lodash/import-scope": ["error", "method"],
+    "@typescript-eslint/camelcase": ["warn"],
+    "jest/no-disabled-tests": "warn",
+    "jest/no-identical-title": "error",
+    "promise/always-return": "warn",
+    "promise/no-return-wrap": "warn",
+    "import/prefer-default-export": "off",
+    "import/no-default-export": "off",
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-useless-constructor": "error",
+    "promise/catch-or-return": ["error", { "allowFinally": true }],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["**/*.test.{ts,tsx}"],
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }
+    ],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "prettier/prettier": "error",
+    "eslint-comments/disable-enable-pair": ["error", { "allowWholeFile": true }]
+  }
+}
