@@ -13,6 +13,10 @@ or
 
 `yarn add @cleartax/eslint-config -D`
 
+### Install `peerDependencies` and plugins
+
+`npx install-peerdeps --dev @cleartax/eslint-config`
+
 ## Usage
 
 Sharable Eslint Configs can be used by adding the config name to the `extends` property in esling-config.
