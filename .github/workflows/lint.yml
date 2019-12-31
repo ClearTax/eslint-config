@@ -1,0 +1,22 @@
+name: lint
+
+on: [pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '13.x'
+
+      - name: Install
+        run: |
+          npm ci
+      
+      - name: Lint
+        continue-on-error: false
+        run: |
+          npm run lint

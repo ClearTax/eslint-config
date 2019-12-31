@@ -1,0 +1,22 @@
+name: test
+
+on: [pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '13.x'
+
+      - name: Install
+        run: |
+          npm ci
+      
+      - name: Test
+        continue-on-error: false
+        run: |
+          npm run test
