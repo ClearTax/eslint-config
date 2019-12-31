@@ -17,7 +17,8 @@
     "lodash",
     "jest",
     "promise",
-    "markdown"
+    "markdown",
+    "eslint-comments"
   ],
   "settings": {
     "import/parsers": {
