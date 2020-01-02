@@ -7,8 +7,11 @@ const cli = new CLIEngine({
   useEslintrc: false
 });
 
-const code = 'var foo = "hello";\nvar bar = function() {};\nbar(foo);\n';
+const files = [
+  'index.js',
+];
 
-const report = cli.executeOnText(code);
+const report = cli.executeOnFiles(files);
 
 tap.equal(report.errorCount, 0);
+tap.equal(report.warningCount, 0);
