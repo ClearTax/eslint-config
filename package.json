@@ -7,8 +7,11 @@
     "eslintconfig",
     "boilerplate",
     "eslint-config",
-    "sharable-config",
-    "eslint-boilerplate"
+    "shareable-config",
+    "eslint-boilerplate",
+    "react-eslint-config",
+    "shareable-eslint-config",
+    "cleartax-eslint-config"
   ],
   "homepage": "https://github.com/cleartax/eslint-config#readme",
   "bugs": {
