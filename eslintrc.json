@@ -39,7 +39,9 @@
     "plugin:promise/recommended",
     "prettier",
     "prettier/@typescript-eslint",
-    "plugin:jsx-a11y/recommended"
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
+    "react-hooks"
   ],
   "rules": {
     "import/extensions": [
