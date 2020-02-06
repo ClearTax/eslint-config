@@ -19,7 +19,8 @@
     "promise",
     "markdown",
     "eslint-comments",
-    "jsx-a11y"
+    "jsx-a11y",
+    "react-hooks"
   ],
   "settings": {
     "import/parsers": {
@@ -40,8 +41,7 @@
     "prettier",
     "prettier/@typescript-eslint",
     "plugin:jsx-a11y/recommended",
-    "plugin:react/recommended",
-    "react-hooks"
+    "plugin:react/recommended"
   ],
   "rules": {
     "import/extensions": [
