@@ -90,6 +90,11 @@
     ],
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "prettier/prettier": "error",
-    "eslint-comments/disable-enable-pair": ["error", { "allowWholeFile": true }]
+    "eslint-comments/disable-enable-pair": [
+      "error",
+      { "allowWholeFile": true }
+    ],
+    "react/no-unescaped-entities": "warn",
+    "react/display-name": "warn"
   }
 }
