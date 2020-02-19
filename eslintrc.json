@@ -20,6 +20,7 @@
     "markdown",
     "eslint-comments",
     "jsx-a11y",
+    "react",
     "react-hooks"
   ],
   "settings": {
