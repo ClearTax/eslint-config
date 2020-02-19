@@ -39,7 +39,7 @@
   },
   "husky": {
     "hooks": {
-      "post-checkout": "psot-merge-install",
+      "post-checkout": "post-merge-install",
       "post-merge": "post-merge-install",
       "post-rebase": "post-merge-install"
     }
