@@ -95,7 +95,6 @@
       "error",
       { "allowWholeFile": true }
     ],
-    "react/no-unescaped-entities": "warn",
-    "react/display-name": "warn"
+    "react/no-unescaped-entities": "warn"
   }
 }
